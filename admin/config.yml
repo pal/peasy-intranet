@@ -47,8 +47,8 @@ collections:
   #         - { label: "Parent", name: "parent", widget: "string", required: false, hint: "(Optional) Enter a matching parent key to set this a nested or child page" }
   #         - { label: "Title", name: "title", widget: "string",  required: false, hint: "(Optional) Enter alternate text for navigation link" }
   #     - { label: "Body", name: "body", widget: "markdown" }
-  - name: "pages"
-    label: "Page"
+  - name: "content"
+    label: "Content"
     folder: "content"
     create: true # Change to true to allow editors to create new pages
     slug: "{{slug}}"

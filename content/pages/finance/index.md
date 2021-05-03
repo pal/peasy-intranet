@@ -5,6 +5,7 @@ permalink: /finance/
 eleventyNavigation:
   key: Finance
   order: 1
+  title: Finance 💸
 ---
 This page lists all we need to know about the finance operations part of Peasy.nu
 

@@ -1,11 +1,11 @@
 ---
 title: Passwords
 date: 2021-05-03T22:02:00.428Z
-permalink: passwords
+permalink: /technology/passwords/
 eleventyNavigation:
-  order: 100
-  parent: technology
-  key: passwords
+  parent: Technology
+  key: Passwords
+  title: Passwords 🗝
 ---
 We store all our passwords in LastPass. 
 

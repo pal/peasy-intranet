@@ -5,6 +5,7 @@ permalink: /technology/
 eleventyNavigation:
   key: Technology
   order: 2
+  title: Technology 🧑‍💻
 ---
 Notes on our tech setup
 
