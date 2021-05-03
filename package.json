@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/broeker/spacebook",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy": "^0.12.1",
     "alpinejs": "^2.7.3",
     "eleventy-plugin-lazyimages": "^2.1.0",
     "eslint": "^7.9.0",
@@ -56,6 +56,7 @@
     "markdown-it-linkify-images": "^2.0.0",
     "markdown-it-table-of-contents": "^0.5.0",
     "markdown-it-task-lists": "^2.1.1",
+    "netlify-plugin-password-protection": "^3.0.2",
     "postcss": "^8.2.2",
     "qs": "^6.9.4",
     "remove": "^0.1.5",
