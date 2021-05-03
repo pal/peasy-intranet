@@ -1,7 +1,7 @@
 ---
 title: Agreements
 date: Last Modified 
-# permalink: /finance/agreements
+permalink: /finance/agreements
 eleventyNavigation:
   parent: Finance
   key: Agreements
