@@ -29,9 +29,27 @@ collections:
   #     - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
   #     - { label: "Body", name: "body", widget: "markdown" }
   # Our pages e.g. About
+  # - name: "pages"
+  #   label: "Page"
+  #   folder: "pages"
+  #   create: true # Change to true to allow editors to create new pages
+  #   slug: "{{slug}}"
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Publish Date", name: "date", widget: "datetime" }
+  #     - { label: "Permalink", name: "permalink", widget: "string" }
+  #     - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+  #       name: "eleventyNavigation"
+  #       widget: "object"
+  #       fields:
+  #         - { label: "Key", name: "key", widget: "string" }
+  #         - { label: "Order", name: "order", widget: "number", default: 100 }
+  #         - { label: "Parent", name: "parent", widget: "string", required: false, hint: "(Optional) Enter a matching parent key to set this a nested or child page" }
+  #         - { label: "Title", name: "title", widget: "string",  required: false, hint: "(Optional) Enter alternate text for navigation link" }
+  #     - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Page"
-    folder: "pages"
+    folder: "content"
     create: true # Change to true to allow editors to create new pages
     slug: "{{slug}}"
     fields:
@@ -43,7 +61,7 @@ collections:
         widget: "object"
         fields:
           - { label: "Key", name: "key", widget: "string" }
-          - { label: "Order", name: "order", widget: "number", default: 100 }
+          - { label: "Order", name: "order", widget: "number", required: false, default: 100 }
           - { label: "Parent", name: "parent", widget: "string", required: false, hint: "(Optional) Enter a matching parent key to set this a nested or child page" }
           - { label: "Title", name: "title", widget: "string",  required: false, hint: "(Optional) Enter alternate text for navigation link" }
       - { label: "Body", name: "body", widget: "markdown" }
